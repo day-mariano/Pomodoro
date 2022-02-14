@@ -1,0 +1,16 @@
+.time-button {
+    background-color: rgb(98, 167, 149);
+    border-style: none;
+}
+
+.timer {
+    background-color: rgb(223, 226, 226);
+    border-radius: 100%;
+    width: auto;
+    margin: auto;
+    padding: 2rem 1rem;
+}
+
+.button-wrapper {
+    display: flex;
+}

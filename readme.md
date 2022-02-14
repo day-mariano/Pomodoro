@@ -1,5 +1,6 @@
-# pomodoro
-Repository for a Pomodoro timer aplication, made with HTML, CSS and JavaScript.
+# Pomodoro timer
+Repository for a Pomodoro timer aplication.
+Made with HTML, CSS and JavaScript.
 
 - pomodoro
 - short break

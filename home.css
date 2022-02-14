@@ -1,0 +1,13 @@
+#imgtime {
+    width: 400px;
+}
+
+.buttons {
+    width: auto;
+    margin: 2rem;
+    padding: 10px 20px;
+    border-radius: 100px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
