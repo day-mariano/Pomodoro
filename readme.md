@@ -5,3 +5,7 @@ Made with HTML, CSS and JavaScript.
 - pomodoro
 - short break
 - long break.
+
+![Preview](images/preview1.png)
+![Preview](images/preview2.png)
+
