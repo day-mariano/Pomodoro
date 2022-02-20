@@ -5,10 +5,23 @@
 
 .timer {
     background-color: rgb(223, 226, 226);
-    border-radius: 100%;
+    font-size: 32px;
+    font-family: monospace;
+    color: rgb(140, 140, 140);
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(140, 140, 140);
     width: auto;
     margin: auto;
-    padding: 2rem 1rem;
+    padding: 1rem;
+}
+
+@media (max-width: 768px) {
+    .button-wrapper {
+        flex-direction: column;
+    }
+
 }
 
 .button-wrapper {

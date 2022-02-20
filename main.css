@@ -9,29 +9,45 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: var(--font-color);
-    display: flex;
     background-color: var(--secondary-color);
-    justify-content: center;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    /*justify-content: center;*/
 }
 
 section {
     background-color: white;
-    width: auto;
+    width: 80%;
+
+    height: 80%;
     margin: auto;
     padding: 2rem 3rem;
     border-radius: 24px;
     box-shadow: 0 8px 16px 4px rgba(0, 0, 0, 0.158);
     display: flex;
     flex-direction: column;
+    align-items: center;
+    /*flex-wrap: wrap;*/
+    /*justify-content: center;*/
+    /*justify-content: space-between;*/
 }
 
 h1 {
     color: var(--primary-color);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
 }
 
 .buttons {
-    width: auto;
+    max-width: 400px;
+    min-width: 100px;
     margin: 2rem;
     padding: 10px 20px;
     border-radius: 100px;
@@ -39,12 +55,16 @@ h1 {
     text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .primary-button {
     background-color: var(--primary-color);
+    
+}
+
+footer {
+    font-size: small;
+    color: var(--font-color);
 }
 
