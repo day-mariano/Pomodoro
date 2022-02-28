@@ -1,9 +1,10 @@
 .time-button {
     background-color: rgb(98, 167, 149);
     border-style: none;
+    cursor: pointer;
 }
 
-.timer {
+#timer {
     background-color: rgb(223, 226, 226);
     font-size: 32px;
     font-family: monospace;
