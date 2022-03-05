@@ -11,7 +11,10 @@ var buttonLongBreak = window.document.getElementById('longBreak');
 buttonLongBreak.addEventListener('click', startLongBreak);
 
 var pauseButton = window.document.getElementById('pause');
-pauseButton.addEventListener('click', pausePlayButton)
+pauseButton.addEventListener('click', pausePlayFunction)
+
+var resetButton = window.document.getElementById('reset');
+resetButton.addEventListener('click', resetFunction)
 
 var chosenTime = 0;
 var time = 0;
@@ -75,7 +78,7 @@ function stopClock() {
     clearInterval(interval);
 }
 //Pausar timer
-function pausePlayButton() {
+function pausePlayFunction() {
     if (play == true && isTimeStarted == true) {
         pauseButton.innerText = 'Play'
         stopClock();
@@ -87,4 +90,11 @@ function pausePlayButton() {
             play = true;
         }
     }
+}
+//zerar timer
+function resetFunction() {
+    stopClock();
+    isTimeStarted = false;
+    time = 0;
+    timerElement.innerHTML = `${addZero(Math.floor(time / 60))}:${addZero(time % 60)}`;
 }

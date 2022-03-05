@@ -2,14 +2,14 @@
     background-color: rgb(98, 167, 149);
     border-style: none;
     cursor: pointer;
+    margin: 1rem;
 }
 
-.pauseButton {
-    background-color: var(--primary-color);
+.pauseResetButton {
+    background-color:  rgb(156, 156, 156);;
     border-style: none;
     cursor: pointer;
-    width: 140px;
-    font-size: 16px;
+    margin: 1rem;
 }
 
 #timer {
@@ -22,7 +22,7 @@
     border-width: 3px;
     border-color: rgb(140, 140, 140);
     width: auto;
-    margin: auto;
+    margin: 1rem;
     padding: 1rem;
 }
 
@@ -38,4 +38,5 @@
 
 .navWrapper {
     display: flex;
+    margin: auto;
 }
