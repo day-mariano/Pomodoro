@@ -4,6 +4,14 @@
     cursor: pointer;
 }
 
+.pauseButton {
+    background-color: var(--primary-color);
+    border-style: none;
+    cursor: pointer;
+    width: 140px;
+    font-size: 16px;
+}
+
 #timer {
     background-color: rgb(223, 226, 226);
     font-size: 32px;
@@ -25,5 +33,9 @@
 }
 
 .button-wrapper {
+    display: flex;
+}
+
+.navWrapper {
     display: flex;
 }
