@@ -80,12 +80,12 @@ function stopClock() {
 //Pausar timer
 function pausePlayFunction() {
     if (play == true && isTimeStarted == true) {
-        pauseButton.innerText = 'Play'
+        pauseButton.innerHTML = '<i class="fa-solid fa-play"></i>'
         stopClock();
         play = false;
     } else {
         if (isTimeStarted == true) {
-            pauseButton.innerText = 'Pause'
+            pauseButton.innerHTML = '<i class="fa-solid fa-pause"></i>'
             startClock();
             play = true;
         }

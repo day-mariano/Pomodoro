@@ -6,10 +6,15 @@
 }
 
 .pauseResetButton {
-    background-color:  rgb(156, 156, 156);;
+    background-color:  rgb(223, 226, 226);
     border-style: none;
     cursor: pointer;
     margin: 1rem;
+}
+
+.icons{
+    height: 18px;
+    color: rgb(140, 140, 140);
 }
 
 #timer {
