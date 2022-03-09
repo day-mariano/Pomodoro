@@ -102,6 +102,7 @@ p {
     background-color: var(--primary-color);
     width: 150px;
     margin: auto;
+    border-style: none;
 }
 
 footer {
