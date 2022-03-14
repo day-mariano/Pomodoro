@@ -1,3 +1,30 @@
+#homeSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+@media (max-width: 768px) {
+    #homeSection {
+        flex-direction: column;
+    }
+    #homeDiv {
+        align-items: center;
+    }
+    #startButton {
+        margin: auto;
+    }
+}
+#homeDiv {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+#startButton {
+    margin: 1rem 0px;
+}
+
 #imgtime {
     width: 400px;
 }

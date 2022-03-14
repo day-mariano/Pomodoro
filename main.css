@@ -12,6 +12,7 @@ body {
     background-color: var(--secondary-color);
     display: flex;
     justify-content: space-between;
+    /* align-items: baseline; */
     flex-direction: column;
     padding: 0%;
     margin: 0%;
@@ -79,7 +80,6 @@ p {
 
 .buttons {
     max-width: 400px;
-    /*min-width: 100px;*/
     margin: 2rem;
     padding: 10px 20px;
     border-radius: 100px;
